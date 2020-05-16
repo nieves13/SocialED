@@ -63,7 +63,7 @@ def processSignup():
         if value is None:
             missing.append(field)
     if missing:
-        return process_missingFields(missing, "/login")
+        return process_missingFields(missing, "/signup")
 
     return '<!DOCTYPE html> ' \
            '<html lang="es">' \
@@ -91,7 +91,7 @@ def processHome():
         if value is None:
             missing.append(field)
     if missing:
-        return process_missingFields(missing, "/login")
+        return process_missingFields(missing, "/home")
 
     return '<!DOCTYPE html> ' \
            '<html lang="es">' \
