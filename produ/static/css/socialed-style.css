@@ -1,11 +1,17 @@
 /*socialed-style.css */
 /* Own stylesheet for SocialED */
 
+body {
+  background: -webkit-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+  background:    -moz-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+  background:     -ms-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+  background:      -o-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+  background:         linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+}
 #container {
   font-family: Helvetica, Geneva, Arial, sans-serif;
   padding-left: 20px;
-  background-color: #FFFFFF; /* beige */
-  font-color: #2A2929; /* dark grey */
+  font-color: #FFFFFF; /* dark grey */
   margin: 10px;
 }
 a:link{
@@ -41,4 +47,59 @@ label {
 
 
 }
+#container {
+  font-family: Helvetica, Geneva, Arial, sans-serif;
+  padding-left: 20px;
+  font-color: #2A2929;
+  margin: 10px;
+}
+a:link{
+  font-size: 120%;
+  text-decoration:none;
+}
+a:hover {
+  color: #2A2929;
+}
+h1 {
+  color: #2A2929;
+  font-size: 200%;
+  margin: 20px;
+}
+form {
+  border: 2px solid #2A2929; /* bronze */
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 5px;
+  font-size: 120%;
+}
+label {
+  font-size: 110%;
+  padding: 5px;
+  text-align: left;
+  margin: 5px;
+}
+.inputs {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: left;
+  margin: 5px;
+}
 
+#left {
+  width:48%;
+  display: inline-block;
+}
+#right {
+  width: 48%;
+  float: right;
+  display: inline-block;
+  height: 100%;
+}
+
+p {
+  font-size: 18px;
+  font-size: 1rem;
+  color: #fff;
+  max-width: 700px;
+  line-height: 1.5;
+}
